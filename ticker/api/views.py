@@ -27,7 +27,8 @@ class TickerViewSet(viewsets.ModelViewSet):
         else:
 
             data = get_yahoo_ticker_data(ticker=obj.title)
-            if data:
+            print(data)
+            if data is not None:
                 for vals in data.itertuples():
                     history = History(
                             ticker=obj,

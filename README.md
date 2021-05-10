@@ -179,9 +179,9 @@ $ python manage.py makemigrations # Создает версию миграции
 > }
 > 
 > output:
-> [
-> "created";
->  {
+> {
+>   "message": "created",
+>  "result": [{
 >    "id": 1,
 >    "ticker": {
 >      "id": 1,
