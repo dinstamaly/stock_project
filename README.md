@@ -51,7 +51,7 @@ $ python manage.py migrate
 $ python manage.py makemigrations # Создает версию миграции в папке migrations
 ```
 > После успешной миграции, можно запустить локальный сервер.
-> протестить можно по этому url localhost:5000/api
+> протестить можно по этому url localhost:8000/api
 
 # Документация по API
 ## Компании
